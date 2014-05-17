@@ -1,9 +1,18 @@
 <!doctype html>
 <html ng-app="myApp">
   <head>
+    <script src="./js/apiKey"></script>
     <script src="./bower_components/angular/angular.min.js"></script>
     <script src="js/main.js"></script>
   </head>
   <body>
+    <div ng-controller="PlayerController">
+      <button ng-click="play()" class="button" ng-show="!playing">Play</button>
+      <button ng-click="stop()" class="button alert" ng-show="playing">Stop</button>
+      Playing audio: <b>{{ playing }}</b>
+    </div>
+    <div ng-controller="PlayerController">
+      {{ programs }}
+    </div>
   </body>
 </html>
