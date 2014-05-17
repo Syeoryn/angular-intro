@@ -1,0 +1,19 @@
+{
+  "name": "angular-intro",
+  "version": "0.0.0",
+  "authors": [
+    "Syeoryn <syeoryn@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-route": "~1.2.16",
+    "angular": "~1.2.16"
+  }
+}
